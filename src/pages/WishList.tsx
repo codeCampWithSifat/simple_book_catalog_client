@@ -5,7 +5,7 @@ const WishList = () => {
   console.log(books);
   return (
     <div>
-      <h2>this is wishlist component</h2>
+      <h2>Set For WishList</h2>
       <div className="grid lg:grid-cols-3 md: grid-cols-2 sm:grid-cols-1 gap-5">
         {books.map((book) => (
           <div className="card  bg-base-100 shadow-xl">
