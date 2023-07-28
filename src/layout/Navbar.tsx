@@ -72,6 +72,11 @@ const Navbar = () => {
                 <a>Book Detail</a>
               </Link>
             </li>
+            <li>
+              <Link to="/wishlist">
+                <a>WishList</a>
+              </Link>
+            </li>
             {!user.email ? (
               <li>
                 <Link to="/login">
@@ -80,11 +85,6 @@ const Navbar = () => {
               </li>
             ) : (
               <>
-                <li>
-                  <Link to="/wishlist">
-                    <a>WishList</a>
-                  </Link>
-                </li>
                 <button
                   onClick={handleLogOut}
                   className="btn btn-active btn-primary"
