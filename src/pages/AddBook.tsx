@@ -2,6 +2,9 @@
 import { useForm } from "react-hook-form";
 import { usePostBookMutation } from "../redux/feature/book/bookSlice";
 import { useNavigate } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
+
+import "react-toastify/dist/ReactToastify.css";
 
 const AddBook = () => {
   const { register, handleSubmit } = useForm();
@@ -18,6 +21,7 @@ const AddBook = () => {
     };
     postBook(options);
     navigate("/allbooks");
+    toast("Add Your Book Successfully");
   };
   return (
     <div className="">
@@ -64,6 +68,7 @@ const AddBook = () => {
           value="Add Book"
         />
       </form>
+      <ToastContainer />
     </div>
   );
 };

@@ -1,66 +1,66 @@
 [
   {
-    "_id": "1",
     "title": "Coding Rider",
     "author": "Sifat",
     "genre": "Bornomala",
     "publicationDate": "2021",
-    "image": "https://i.ibb.co/ZN1t2RQ/Java-Script-logo.png"
+    "image": "https://i.ibb.co/ZN1t2RQ/Java-Script-logo.png",
+    "review": "This book is amzing"
   },
   {
-    "_id": "2",
     "title": "Coding Rider",
     "author": "Sayed",
     "genre": "Commerce",
     "publicationDate": "2022",
-    "image": "https://i.ibb.co/k04fCtL/download-5.jpg"
+    "image": "https://i.ibb.co/k04fCtL/download-5.jpg",
+    "review": "This book is amzing"
   },
   {
-    "_id": "3",
     "title": "Programming Hero",
     "author": "Jhankar",
     "genre": "Adarsho",
     "publicationDate": "2023",
-    "image": "https://i.ibb.co/qWwgKZN/download-4.jpg"
+    "image": "https://i.ibb.co/qWwgKZN/download-4.jpg",
+    "review": "This book is amzing"
   },
   {
-    "_id": "4",
     "title": "Learn With Rabbil",
     "author": "Rabbil Hasan",
     "genre": "Ostad",
     "publicationDate": "2024",
-    "image": "https://i.ibb.co/BZXBqzN/atomic-kotlin.webp"
+    "image": "https://i.ibb.co/BZXBqzN/atomic-kotlin.webp",
+    "review": "This book is amzing"
   },
   {
-    "_id": "5",
     "title": "Learn With Hasin Hayder",
     "author": "Hasin Hayder",
     "genre": "Haider",
     "publicationDate": "2025",
-    "image": "https://i.ibb.co/SxTDWJX/download-2.jpg"
+    "image": "https://i.ibb.co/SxTDWJX/download-2.jpg",
+    "review": "This book is amzing"
   },
   {
-    "_id": "6",
     "title": "Learn With Sumit",
     "author": "Sumit Shah",
     "genre": "Learn With Sumit",
     "publicationDate": "2025",
-    "image": "https://i.ibb.co/xYkYGLQ/download.jpg"
+    "image": "https://i.ibb.co/xYkYGLQ/download.jpg",
+    "review": "This book is amzing"
   },
   {
-    "_id": "7",
     "title": "Foyzul Karim",
     "author": "Foyzul Karim",
     "genre": "Foyzul karim",
     "publicationDate": "2024",
-    "image": "https://i.ibb.co/x3SsGFk/download-1.jpg"
+    "image": "https://i.ibb.co/x3SsGFk/download-1.jpg",
+    "review": "This book is amzing"
   },
   {
-    "_id": "8",
     "title": "Stack Learner",
     "author": "Hm Nayem",
     "genre": "Stack Learner",
     "publicationDate": "2023",
-    "image": "https://i.ibb.co/G54QxxW/png-transparent-react-native-javascript-mobile-app-development-github-symmetry-mobile-app-developmen.png"
+    "image": "https://i.ibb.co/G54QxxW/png-transparent-react-native-javascript-mobile-app-development-github-symmetry-mobile-app-developmen.png",
+    "review": "This book is amzing"
   }
 ]

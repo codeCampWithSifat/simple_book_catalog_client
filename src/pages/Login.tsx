@@ -1,16 +1,30 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
-import { useAppDispatch } from "../redux/hooks";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import { useAppDispatch, useAppSelector } from "../redux/hooks";
 import { loginUser } from "../redux/feature/user/userSlice";
+import { useEffect } from "react";
 
 const Login = () => {
   const { register, handleSubmit } = useForm();
   const dispatch = useAppDispatch();
 
+  const { user, isLoading } = useAppSelector((state) => state.user);
+
+  const navigate = useNavigate();
+  const location = useLocation();
+  const from = location.state?.from?.pathname || "/";
+
   const onSubmit = (data: any) => {
     dispatch(loginUser({ email: data.email, password: data.password }));
   };
+
+  useEffect(() => {
+    if (user.email && !isLoading) {
+      navigate(from, { replace: true });
+    }
+  }, [from, isLoading, navigate, user.email]);
+
   return (
     <div className="">
       <h2 className="text-indigo-800 text-3xl text-center font-bold">

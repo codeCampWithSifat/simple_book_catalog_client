@@ -79,12 +79,19 @@ const Navbar = () => {
                 </Link>
               </li>
             ) : (
-              <button
-                onClick={handleLogOut}
-                className="btn btn-active btn-primary"
-              >
-                Log Out
-              </button>
+              <>
+                <li>
+                  <Link to="/wishlist">
+                    <a>WishList</a>
+                  </Link>
+                </li>
+                <button
+                  onClick={handleLogOut}
+                  className="btn btn-active btn-primary"
+                >
+                  Log Out
+                </button>
+              </>
             )}
           </ul>
         </div>

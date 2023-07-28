@@ -29,6 +29,9 @@ const SingleBookDetail = ({ book }: IProps) => {
           <p>Title : {book.title}</p>
           <p>Genre : {book.genre}</p>
           <p>Publication Date : {book.publicationDate}</p>
+          <p>
+            <strong className="text-indigo-800">Review</strong> : {book.review}
+          </p>
           <div className="flex justify-between">
             <div>
               <button

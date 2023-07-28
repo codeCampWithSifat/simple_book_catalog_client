@@ -6,7 +6,6 @@ import { useNavigate, useParams } from "react-router-dom";
 const EditBook = () => {
   const { register, handleSubmit } = useForm();
   const { id } = useParams();
-  console.log(id);
   const [editbook] = useEditBookMutation();
   const navigate = useNavigate();
   const onSubmit = (data: any) => {
@@ -21,7 +20,6 @@ const EditBook = () => {
     };
     editbook(options);
     navigate("/");
-    // console.log(data.author);
   };
   return (
     <div className="">
