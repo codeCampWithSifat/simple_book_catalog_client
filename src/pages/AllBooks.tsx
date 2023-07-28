@@ -19,7 +19,9 @@ const AllBooks = () => {
     setSearch(filterOption);
   };
   useEffect(() => {
-    fetch(`http://localhost:5000/books`)
+    fetch(
+      `https://simple-book-catalog-server-codecampwithsifat.vercel.app/books`
+    )
       .then((res) => res.json())
       .then((data) => {
         setSearch(data);
